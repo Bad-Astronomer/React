@@ -7,5 +7,5 @@ TO DO:
 ~~Init Github repo~~  
 ~~Github Sync Test~~   
 Github in general  
-Complicated react github push  
+~~Complicated react github push~~  
 React js
