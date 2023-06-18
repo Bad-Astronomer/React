@@ -9,3 +9,6 @@ TO DO:
 Github in general  
 ~~Complicated react github push~~  
 React js
+~~Components~~
+~~UseState~~  
+Hooks
