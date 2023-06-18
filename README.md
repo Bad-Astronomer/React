@@ -8,7 +8,7 @@ TO DO:
 ~~Github Sync Test~~   
 Github in general  
 ~~Complicated react github push~~  
-React js
+React js  
 ~~Components~~
 ~~UseState~~  
 Hooks
