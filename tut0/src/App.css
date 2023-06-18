@@ -1,13 +1,18 @@
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: rgb(27, 28, 32);
+    background: var(--primary);
     margin: 0;
     padding: 0;
 }
 
 *{
     font-family: "Space Mono", monospace;
+}
+
+:root{
+    --primary: rgb(27, 28, 32); 
+    --secondary: rgb(50, 50, 50); 
 }
 
 .container{

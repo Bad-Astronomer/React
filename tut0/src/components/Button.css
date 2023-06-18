@@ -1,6 +1,6 @@
 .button{
     color: white;
-    background: rgb(50, 50, 50);
+    background: var(--secondary);
     width: fit-content;
     padding: 2em;
     font-size: 1.2em;
