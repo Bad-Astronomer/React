@@ -12,5 +12,5 @@ React js
 ~~Components~~
 ~~CSS for Components~~   
 ~~UseState~~  
-Hooks
+~~Hooks - Important~~
 API calls
