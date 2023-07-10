@@ -1,0 +1,22 @@
+body{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
+
+.my-container{
+    height: 100vh;
+    width: 100vw;
+}
+.my-btn{
+    width: 15em;
+    margin: 0.5em;
+}
+
+.my-header{
+    color: white;
+    font-size: 4em;
+}
+
+
