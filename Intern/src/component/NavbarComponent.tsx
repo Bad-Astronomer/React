@@ -1,10 +1,11 @@
 import './css/NavbarComponent.css';
 
 interface NavbarProps{
-    username: string;
+    username?: string;
 }
 
 const NavbarComponent = ({username}: NavbarProps) => {
+    if(!username) username = "TEST";
 
     return (
         <div>
