@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <NavbarComponent username="ADMIN"></NavbarComponent>
+      <NavbarComponent username='ADMIN'></NavbarComponent>
       <FooterComponent></FooterComponent>
       <AddStudentComponent></AddStudentComponent>
     </>
