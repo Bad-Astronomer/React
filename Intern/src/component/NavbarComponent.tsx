@@ -30,9 +30,7 @@ const NavbarComponent = ({username}: NavbarProps) => {
                 </ul>
             </div>
             <div className='Welcome'>
-                <div className='text'>
-                    <h3>WELCOME, {username}.</h3>
-                </div>
+                <h3>WELCOME, {username}.</h3>
             </div>
             <div className='Logout'>
                 <button>LOGOUT</button>

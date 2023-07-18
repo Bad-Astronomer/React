@@ -33,13 +33,17 @@
 }
 .Welcome{
     grid-column: 4/5;
-}
-.Welcome h3 {
     height: 7rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.Welcome h3 {
+    color: white;
+    background-color: #25548B;
+    padding: 10px 30px;
     margin: 0;
+    font-weight: 100;
 }
 .Logout{
     grid-column: 5/6;
