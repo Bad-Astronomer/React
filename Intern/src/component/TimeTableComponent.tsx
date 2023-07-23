@@ -22,8 +22,9 @@ const TimeTableComponent = () => {
             <option value="even">Even</option>
             </select>
         </div>
-        <ButtonComponent text="Create" onClickFunction={() => {createTimeTable()}}></ButtonComponent>
-        <button className="create-button">Create</button>
+        <div className="create-button">
+            <ButtonComponent text="Create" onClickFunction={() => {createTimeTable()}}></ButtonComponent>
+        </div>
         </div>
     </div>
     )

@@ -1,17 +1,18 @@
-import './App.css'
-import NavbarComponent from './component/NavbarComponent';
-import FooterComponent from './component/FooterComponent';
-import AddStudentComponent from './component/AddStudentComponent';
+import { Routes, Route } from "react-router-dom";
+
+import "./App.css";
+import AddStudentScreen from "./container/AddStudentScreen";
+import CreateTimeTableScreen from "./container/CreateTimeTableScreen";
 
 function App() {
-
   return (
     <>
-      <NavbarComponent username='ADMIN'></NavbarComponent>
-      <FooterComponent></FooterComponent>
-      <AddStudentComponent></AddStudentComponent>
+      <Routes>
+        <Route path="/*" element={<AddStudentScreen />} />
+        <Route path="/create" element={<CreateTimeTableScreen />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

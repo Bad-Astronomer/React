@@ -50,13 +50,8 @@ select {
   width: 200px;
 }
 
-button.create-button {
-  background-color: #921212;
-  color: white;
-  border: none;
+.create-button {
   padding: 10px 40px;
-  border-radius: 3px;
-  cursor: pointer;
   align-self: flex-end;
   margin-right: 40px;
 }
