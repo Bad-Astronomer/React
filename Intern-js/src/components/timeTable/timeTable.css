@@ -8,9 +8,8 @@ body {
 .box {
   background-color: #d9d9d9;
   border-radius: 8px;
-  margin: 25px;
+  margin: 30px 2.5vw;
   height: 170px;
-  width: 1486px;
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

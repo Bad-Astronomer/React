@@ -5,7 +5,7 @@ body{
 .add-student-component-container{
     display: flex;
     position: relative;
-    margin: 20px 0;
+    margin: 40px 0;
     gap: 2.5vw;
 }
 .add-student-container{
