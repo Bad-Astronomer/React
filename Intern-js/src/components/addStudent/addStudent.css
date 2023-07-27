@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+}
+
+.add-student-component-container{
+    display: flex;
+    position: relative;
+    margin: 20px 0;
+    gap: 2.5vw;
+}
+.add-student-container{
+    flex: 1;
+}
+.add-student-inner-container{
+    margin-left: 2.5vw; 
+    height: fit-content;
+    padding: 50px;
+    background-color: lightgray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: fit-content;
+    display: flex;
+    border-radius: 1em;
+}
+.input-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 0px clamp(20px, 2vw, 50px);
+}
+input{
+    background-color: white;
+}
+.secondary-text{
+    margin: 0;
+    color:  black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.primary-text{
+    margin: 0;
+    color:rgb(161, 8, 8);
+    font-size: 25px;
+    font-weight: bold;
+}
+.download-template-container{
+    width: fit-content;
+    margin-right: 2.5vw; 
+    background-color: lightgray;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 100px;
+    justify-self: end;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
