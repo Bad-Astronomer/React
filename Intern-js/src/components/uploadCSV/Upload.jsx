@@ -1,8 +1,8 @@
 import React from 'react';
-import './addStudent.css';
+import './upload.css';
 import Button from '../button/Button';
 
-const AddStudent = () => {
+const Upload = ({componentFunction}) => {
 
   const uploadFunction = () => {
     console.log("Call Upload Function");
@@ -16,7 +16,7 @@ const AddStudent = () => {
     <div className='add-student-component-container'>
       <div className="add-student-container">
         <form className='add-student-inner-container'>
-            <p className="primary-text">Add/Edit Students</p>
+            <p className="primary-text">Add/Edit {componentFunction}</p>
             <div className="input-container">
                 <input type="text" />
                 <Button text="Upload" onClickFunction={() => {uploadFunction()}}></Button>
@@ -32,4 +32,4 @@ const AddStudent = () => {
   )
 }
 
-export default AddStudent;
+export default Upload;
